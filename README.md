@@ -1,5 +1,7 @@
 # Network Monitoring Stack
 
+![monitoring](../../monitoring.png)
+
 Python + Flask backend with Netmiko, PySNMP, Twilio alerts and a React + Vite + Chart.js frontend for real-time network health, bandwidth, and anomaly alerting.
 
 **Status**: ✅ Complete with full documentation and test data included
