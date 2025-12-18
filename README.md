@@ -13,9 +13,6 @@ Python + Flask backend with Netmiko, PySNMP, Twilio alerts and a React + Vite + 
 # Terminal 1: Backend
 cd backend && source .venv/bin/activate && python -m flask run --port=3000
 
-# Terminal 2: Data Generator
-cd backend && source .venv/bin/activate && python continuous_data_generator.py --interval 15
-
 # Terminal 3: Frontend
 cd frontend && npm run dev
 ```
@@ -36,24 +33,6 @@ cd frontend
 npm install
 npm run dev
 ```
-
----
-
-## 📚 Documentation Guide
-
-Start here based on your needs:
-
-| Document | Purpose | Read Time |
-|----------|---------|-----------|
-| **INDEX.md** | 📖 Complete documentation index | 5 min |
-| **QUICK_START.md** | ⚡ One-page reference | 5 min |
-| **PROJECT_SUMMARY.md** | 📋 What was built | 10 min |
-| **INTERVIEW_GUIDE.md** | 🎯 Interview preparation | 30 min |
-| **ARCHITECTURE.md** | 🏗️ System design & concepts | 30 min |
-| **COMMANDS.md** | 💻 Command reference | 5 min |
-| **TESTING_GUIDE.md** | 🧪 Testing procedures | 15 min |
-
-👉 **Start with INDEX.md for a complete overview!**
 
 ---
 
@@ -228,21 +207,9 @@ This project covers:
 - ✅ Authentication & security
 - ✅ Time zone handling
 
-See **INTERVIEW_GUIDE.md** for common questions and answers.
-
 ---
 
 ## 📖 Learning Path
-
-### 30 Minutes
-1. Read QUICK_START.md
-2. Read PROJECT_SUMMARY.md
-3. Try API commands from COMMANDS.md
-
-### 2 Hours
-1. Read INTERVIEW_GUIDE.md
-2. Study ARCHITECTURE.md
-3. Test the dashboard
 
 ### 4 Hours
 1. Explore backend/app.py
@@ -269,31 +236,6 @@ See **INTERVIEW_GUIDE.md** for common questions and answers.
 
 See **TESTING_GUIDE.md** for detailed troubleshooting.
 
----
-
-## 🎉 What You Have
-
-A complete, production-like network monitoring system with:
-- Fully functional backend API
-- Professional React dashboard
-- Working database with test data
-- Simulation system for testing
-- 7 comprehensive documentation guides
-- Real-world features (alerts, timezone, auth)
-- 358+ pre-populated records
-- Continuous data generation
-
-**Perfect for portfolio and interviews!**
-
----
-
-## 📚 Next Steps
-
-1. **Learn**: Read INTERVIEW_GUIDE.md cover-to-cover
-2. **Explore**: Examine backend/app.py and frontend/src/App.jsx
-3. **Test**: Try API commands and database queries
-4. **Extend**: Add new features (WebSockets, more metrics, etc.)
-5. **Deploy**: Host on cloud (AWS, Heroku, Vercel, etc.)
 
 ---
 
@@ -301,16 +243,3 @@ A complete, production-like network monitoring system with:
 
 This project is open source and available for educational purposes.
 
----
-
-**Status**: ✅ Complete and Production-Ready
-**Created**: December 18, 2025
-**Documentation**: 7 comprehensive guides
-**Test Data**: 358+ records included
-**Ready for**: Learning, Interviews, Portfolio
-
-👉 **Start with INDEX.md for complete documentation!**
-
-- Backend uses `SIMULATION_MODE=true` by default; set to `false` to talk to real devices.
-- Device definitions live in `config.py` and can be overridden via env vars (`DEVICE1_HOST`, etc.).
-- API key required for all `/api/*` routes via `X-API-KEY` header.
