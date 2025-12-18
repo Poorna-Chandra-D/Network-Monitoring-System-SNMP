@@ -1,6 +1,6 @@
 # Network Monitoring Stack
 
-![monitoring](../../monitoring.png)
+<img width="1458" height="803" alt="monitoring" src="https://github.com/user-attachments/assets/3fc7066b-0f3b-4496-9639-f6b7de0fb362" />
 
 Python + Flask backend with Netmiko, PySNMP, Twilio alerts and a React + Vite + Chart.js frontend for real-time network health, bandwidth, and anomaly alerting.
 
