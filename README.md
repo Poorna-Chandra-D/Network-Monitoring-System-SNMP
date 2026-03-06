@@ -8,16 +8,7 @@ Python + Flask backend with Netmiko, PySNMP, Twilio alerts and a React + Vite + 
 
 ---
 
-## 🚀 Quick Start (5 minutes)
 
-### Option 1: Run Everything
-```bash
-# Terminal 1: Backend
-cd backend && source .venv/bin/activate && python -m flask run --port=3000
-
-# Terminal 3: Frontend
-cd frontend && npm run dev
-```
 
 Then open: **http://localhost:5173**
 
@@ -244,4 +235,5 @@ See **TESTING_GUIDE.md** for detailed troubleshooting.
 ## 📄 License
 
 This project is open source and available for educational purposes.
+
 
