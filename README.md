@@ -38,7 +38,18 @@ npm run dev
 
 ---
 
+## ✨ Features
 
+- ✅ **Real-time Dashboard**: Charts with CPU, Memory, Packet Loss metrics
+- ✅ **Multi-device Support**: Monitor 2+ devices simultaneously  
+- ✅ **Smart Alerting**: Auto-generated alerts based on thresholds
+- ✅ **REST API**: 6 endpoints with authentication
+- ✅ **Simulation Mode**: Test without real network devices
+- ✅ **Data Persistence**: SQLite database with 358+ records
+- ✅ **Live Polling**: Continuous data generation every 15 seconds
+- ✅ **EST Timezone**: All times displayed in Eastern Time
+- ✅ **Auto-refresh**: Dashboard updates every 10 seconds
+- ✅ **Complete Docs**: 7 markdown guides included
 
 ---
 
@@ -233,6 +244,7 @@ See **TESTING_GUIDE.md** for detailed troubleshooting.
 ## 📄 License
 
 This project is open source and available for educational purposes.
+
 
 
 
